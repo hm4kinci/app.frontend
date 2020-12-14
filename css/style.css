@@ -1,0 +1,32 @@
+.response-success{color: #007043;}
+.response-error{color: #ec5064}
+.response-warning{ color: #f9a834;}
+
+
+body {
+	
+    font-size: 10pt;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.sidebar{
+    background-color: #efefef;
+    padding-right: 20px;
+    padding-top: 20px;
+    min-height: calc(100vh - 50px);
+}
